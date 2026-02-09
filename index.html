@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Walentynka 💘</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<main class="card">
+  <div class="hearts" aria-hidden="true">💖💗💘💝</div>
+  <h1>Aleksandro, czy zostaniesz moją Walentynką?</h1>
+  <p class="sub">Oferuję: dużo śmiechu, ciepła i pyszne jedzonko 😌</p>
+
+  <div class="buttons">
+    <button id="yes" class="btn yes">TAK</button>
+  </div>
+
+  <!-- "NIE" poza układem – będzie fixed i będzie uciekać -->
+  <button id="no" class="btn no">NIE</button>
+
+  <div id="result" class="result" hidden></div>
+
+  <!-- GIF po kliknięciu TAK -->
+<div id="gifWrap" class="gifWrap" hidden>
+  <img id="valGif" alt="  " />
+</div>
+
+</main>
+
+<!-- fajerwerki -->
+<canvas id="fx"></canvas>
+
+<script src="script.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
